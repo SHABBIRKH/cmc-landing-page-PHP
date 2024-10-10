@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Inter,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,Helvetica,Arial,sans-serif;
+    color: #0d1421;
+}
+body p{
+    color: rgb(88, 102, 126);
+}
+.left{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0 50px;
+}
+nav{
+    background-color: rgb(255, 251, 251);
+    display: flex;
+    height: 80px;
+    align-items: center;   
+    box-sizing: border-box;
+    color: rgb(63, 58, 58);
+    font-weight: bold;
+}
+.name{
+    font-size: 1.3rem;
+    padding: 0 10px;
+    color: black;
+
+}
+nav div img{
+    width: 40px;
+    height: 40px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+
+}
+nav ul li{
+    margin: 0 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+main h1{
+    margin: 10px 0 0 10px;
+}
+main p{
+    margin: 10px 0 10px 10px;
+    
+}
+.slidersection{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    height: 200px;
+}
+.slidersection div{
+    margin: 0 125px;
+    background-color: aqua;
+    padding: 50px;
+}
+
+.left-section{
+  font-family: 'Inter', sans-serif;
+  font-size: 9px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #333333;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+
+}
+
+.left-section a {
+  text-decoration: none;
+  color: black;
+  text-decoration: underline none;
+}
+
+
+.right-section{
+  font-family: 'Inter', sans-serif;
+  font-size: 9px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #333333;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+
+}
+
+.right-section a {
+  text-decoration: none;
+  text-decoration: underline none;
+  color: black;
+  
+ }
+
+ .header a {
+  text-decoration: none;
+  color: black;
+ }
+/* Coins Bar Styles */
+
+.coins-bar {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .coins-bar table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .coins-bar thead th {
+    color: black;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .coins-bar tbody tr {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .coins-bar tbody tr:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .coins-bar td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .coins-bar td a {
+    color: #337ab7;
+    text-decoration: none;
+  }
+  
+  .coins-bar td a:hover {
+    color: #23527c;
+  }
+  
+  .coins-bar .current-price {
+    font-weight: bold;
+  }
+  
+  .coins-bar .price-change {
+    color: #008000; /* green */
+  }
+  
+  .coins-bar .price-change_negative {
+    color: #ff0000; /* red */
+  }
+  
+  .coins-bar .holding-total {
+    font-weight: bold;
+  }
+  
+  .coins-bar .profit-loss {
+    font-weight: bold;
+  }
+
+
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+    font-size:5px;
+    color: #333;
+  }
+  
+  /* .header a {
+    color: #007bff;
+    text-decoration: none;
+  } */
+  
+  .header .left-section span {
+    margin-right: 15px;
+  }
+  
+  .header .right-section span {
+    margin-right: 10px;
+  }
+  
+  .header .right-section a {
+    padding: 5px;
+  }
+  
+  .header .login-button, .header .signup-button {
+    padding: 5px 15px;
+    border: 1px solid #007bff;
+    background-color: white;
+    color: #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .header .login-button:hover, .header .signup-button:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .header .signup-button {
+    margin-left: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+  }
+  
+  .header .signup-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .green {
+    color: #28a745;
+  }
+  
+  .coins-bar {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .coins-bar th,
+  .coins-bar td {
+    text-align: left;
+    padding: 18px;
+  }
+  
+  .coins-bar th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .coins-bar td {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .coins-bar td.green {
+    color: green;
+  }
+  
+  .coins-bar td.red {
+    color: red;
+  }
+
+  .symbolfont{
+    font-size: 12px;
+    color: rgb(146, 146, 146) ;
+    font-weight: bold;
+  }
+  
